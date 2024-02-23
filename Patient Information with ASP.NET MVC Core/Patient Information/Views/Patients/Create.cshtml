@@ -1,0 +1,111 @@
+﻿@model Patient_Information.ViewModels.PatientVM
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2 class="alert alert-success text-center mt-2">Add New Patients</h2>
+<form asp-action="Create" asp-controller="Patients" method="post">
+    <div class="row">
+        <div class="col-6">
+            <div class="card">
+                <div class="card-header text-center">
+                    <h3>Patients Information</h3>
+                </div>
+                <div class="card-body ms-2">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="row mb-2">
+                        <div class="col-3">
+                            <label asp-for="PatientName" class="col-form-label"></label>
+                        </div>
+                        <div class="col-5">
+                            <input asp-for="PatientName" class="form-control form-control-sm" />
+                        </div>
+                        <div class="col-4">
+                            <span asp-validation-for="PatientName" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row mb-2">
+                        <div class="col-3">
+                            <label asp-for="DiseasesId" class="col-form-label"></label>
+                        </div>
+                        <div class="col-5">
+                            @Html.DropDownListFor(x => x.DiseasesId, ViewBag.Diseases as SelectList, "-----Select-----", new { @class = "form-control" })
+                        </div>
+                        <div class="col-4">
+                            <span asp-validation-for="DiseasesId" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row mb-2">
+                        <div class="col-3">
+                            <label asp-for="Epilepsy" class="col-form-label"></label>
+                        </div>
+                        <div class="col-5">
+                            @Html.DropDownListFor(x => x.Epilepsy, ViewBag.Epilepsy as SelectList, "-----Select-----", new { @class = "form-control" })
+                        </div>
+                        <div class="col-4">
+                            <span asp-validation-for="Epilepsy" class="text-danger"></span>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-3">
+            <div class="card" style="min-height:230px">
+                <div class="card-header text-center">
+                    <h3>Other NCD</h3>
+                </div>
+                <div class="card-body">
+                    <div class="d-flex justify-content-end mb-3">
+                        <a id="btnAddNCD" class="btn btn-warning"><i class="fa fa-plus"></i> Add New</a>
+                    </div>
+                    <div id="NCDContainer">
+                        <script>
+                            LoadDataNCD();
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-3">
+            <div class="card" style="min-height:230px">
+                <div class="card-header text-center">
+                    <h3>Allergies</h3>
+                </div>
+                <div class="card-body">
+                    <div class="d-flex justify-content-end mb-3">
+                        <a id="btnAddAllergies" class="btn btn-warning"><i class="fa fa-plus"></i> Add New</a>
+                    </div>
+                    <div id="AllergiesContainer">
+                        <script>
+                            LoadDataAllergies();
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-end my-2">
+            <input type="submit" value="Save Data" class="btn btn-success " />
+        </div>
+
+    </div>
+</form>
+
+<div class="card-footer">
+    <div class="d-flex justify-content-start">
+        <a asp-action="Index" class="btn btn-link btn-sm text-decoration-none"><i class="fa fa-arrow-circle-left"></i> Back to List</a>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

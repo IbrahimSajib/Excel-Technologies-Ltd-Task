@@ -1,0 +1,28 @@
+E:\Excel Technologies Ltd. Task\Patient Information\Patient Information.BL\bin\Debug\net8.0\Patient Information.BL.deps.json
+E:\Excel Technologies Ltd. Task\Patient Information\Patient Information.BL\bin\Debug\net8.0\Patient Information.BL.runtimeconfig.json
+E:\Excel Technologies Ltd. Task\Patient Information\Patient Information.BL\bin\Debug\net8.0\Patient Information.BL.dll
+E:\Excel Technologies Ltd. Task\Patient Information\Patient Information.BL\bin\Debug\net8.0\Patient Information.BL.pdb
+E:\Excel Technologies Ltd. Task\Patient Information\Patient Information.BL\obj\Debug\net8.0\Patient Information.BL.csproj.AssemblyReference.cache
+E:\Excel Technologies Ltd. Task\Patient Information\Patient Information.BL\obj\Debug\net8.0\Patient Information.BL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Excel Technologies Ltd. Task\Patient Information\Patient Information.BL\obj\Debug\net8.0\Patient Information.BL.AssemblyInfoInputs.cache
+E:\Excel Technologies Ltd. Task\Patient Information\Patient Information.BL\obj\Debug\net8.0\Patient Information.BL.AssemblyInfo.cs
+E:\Excel Technologies Ltd. Task\Patient Information\Patient Information.BL\obj\Debug\net8.0\Patient Information.BL.csproj.CoreCompileInputs.cache
+E:\Excel Technologies Ltd. Task\Patient Information\Patient Information.BL\obj\Debug\net8.0\Patient Information.BL.dll
+E:\Excel Technologies Ltd. Task\Patient Information\Patient Information.BL\obj\Debug\net8.0\refint\Patient Information.BL.dll
+E:\Excel Technologies Ltd. Task\Patient Information\Patient Information.BL\obj\Debug\net8.0\Patient Information.BL.pdb
+E:\Excel Technologies Ltd. Task\Patient Information\Patient Information.BL\obj\Debug\net8.0\Patient Information.BL.genruntimeconfig.cache
+E:\Excel Technologies Ltd. Task\Patient Information\Patient Information.BL\obj\Debug\net8.0\ref\Patient Information.BL.dll
+E:\Excel Technologies Ltd. Task\Patient Information Portal\Patient Information with ASP.NET Core Web API\Patient Information.BL\bin\Debug\net8.0\Patient Information.BL.deps.json
+E:\Excel Technologies Ltd. Task\Patient Information Portal\Patient Information with ASP.NET Core Web API\Patient Information.BL\bin\Debug\net8.0\Patient Information.BL.runtimeconfig.json
+E:\Excel Technologies Ltd. Task\Patient Information Portal\Patient Information with ASP.NET Core Web API\Patient Information.BL\bin\Debug\net8.0\Patient Information.BL.dll
+E:\Excel Technologies Ltd. Task\Patient Information Portal\Patient Information with ASP.NET Core Web API\Patient Information.BL\bin\Debug\net8.0\Patient Information.BL.pdb
+E:\Excel Technologies Ltd. Task\Patient Information Portal\Patient Information with ASP.NET Core Web API\Patient Information.BL\obj\Debug\net8.0\Patient Information.BL.csproj.AssemblyReference.cache
+E:\Excel Technologies Ltd. Task\Patient Information Portal\Patient Information with ASP.NET Core Web API\Patient Information.BL\obj\Debug\net8.0\Patient Information.BL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Excel Technologies Ltd. Task\Patient Information Portal\Patient Information with ASP.NET Core Web API\Patient Information.BL\obj\Debug\net8.0\Patient Information.BL.AssemblyInfoInputs.cache
+E:\Excel Technologies Ltd. Task\Patient Information Portal\Patient Information with ASP.NET Core Web API\Patient Information.BL\obj\Debug\net8.0\Patient Information.BL.AssemblyInfo.cs
+E:\Excel Technologies Ltd. Task\Patient Information Portal\Patient Information with ASP.NET Core Web API\Patient Information.BL\obj\Debug\net8.0\Patient Information.BL.csproj.CoreCompileInputs.cache
+E:\Excel Technologies Ltd. Task\Patient Information Portal\Patient Information with ASP.NET Core Web API\Patient Information.BL\obj\Debug\net8.0\Patient Information.BL.dll
+E:\Excel Technologies Ltd. Task\Patient Information Portal\Patient Information with ASP.NET Core Web API\Patient Information.BL\obj\Debug\net8.0\refint\Patient Information.BL.dll
+E:\Excel Technologies Ltd. Task\Patient Information Portal\Patient Information with ASP.NET Core Web API\Patient Information.BL\obj\Debug\net8.0\Patient Information.BL.pdb
+E:\Excel Technologies Ltd. Task\Patient Information Portal\Patient Information with ASP.NET Core Web API\Patient Information.BL\obj\Debug\net8.0\Patient Information.BL.genruntimeconfig.cache
+E:\Excel Technologies Ltd. Task\Patient Information Portal\Patient Information with ASP.NET Core Web API\Patient Information.BL\obj\Debug\net8.0\ref\Patient Information.BL.dll

@@ -1,0 +1,271 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Excel Technologies Ltd. Task\\Patient Information Portal\\Patient Information with ASP.NET Core Web API\\Patient Information.API\\Patient Information.API.csproj": {}
+  },
+  "projects": {
+    "E:\\Excel Technologies Ltd. Task\\Patient Information Portal\\Patient Information with ASP.NET Core Web API\\Patient Information.API\\Patient Information.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Excel Technologies Ltd. Task\\Patient Information Portal\\Patient Information with ASP.NET Core Web API\\Patient Information.API\\Patient Information.API.csproj",
+        "projectName": "Patient Information.API",
+        "projectPath": "E:\\Excel Technologies Ltd. Task\\Patient Information Portal\\Patient Information with ASP.NET Core Web API\\Patient Information.API\\Patient Information.API.csproj",
+        "packagesPath": "C:\\Users\\Sajib\\.nuget\\packages\\",
+        "outputPath": "E:\\Excel Technologies Ltd. Task\\Patient Information Portal\\Patient Information with ASP.NET Core Web API\\Patient Information.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sajib\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Excel Technologies Ltd. Task\\Patient Information Portal\\Patient Information with ASP.NET Core Web API\\Patient Information.BL\\Patient Information.BL.csproj": {
+                "projectPath": "E:\\Excel Technologies Ltd. Task\\Patient Information Portal\\Patient Information with ASP.NET Core Web API\\Patient Information.BL\\Patient Information.BL.csproj"
+              },
+              "E:\\Excel Technologies Ltd. Task\\Patient Information Portal\\Patient Information with ASP.NET Core Web API\\Patient Information.DAL\\Patient Information.DAL.csproj": {
+                "projectPath": "E:\\Excel Technologies Ltd. Task\\Patient Information Portal\\Patient Information with ASP.NET Core Web API\\Patient Information.DAL\\Patient Information.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Excel Technologies Ltd. Task\\Patient Information Portal\\Patient Information with ASP.NET Core Web API\\Patient Information.BL\\Patient Information.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Excel Technologies Ltd. Task\\Patient Information Portal\\Patient Information with ASP.NET Core Web API\\Patient Information.BL\\Patient Information.BL.csproj",
+        "projectName": "Patient Information.BL",
+        "projectPath": "E:\\Excel Technologies Ltd. Task\\Patient Information Portal\\Patient Information with ASP.NET Core Web API\\Patient Information.BL\\Patient Information.BL.csproj",
+        "packagesPath": "C:\\Users\\Sajib\\.nuget\\packages\\",
+        "outputPath": "E:\\Excel Technologies Ltd. Task\\Patient Information Portal\\Patient Information with ASP.NET Core Web API\\Patient Information.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sajib\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Excel Technologies Ltd. Task\\Patient Information Portal\\Patient Information with ASP.NET Core Web API\\Patient Information.DAL\\Patient Information.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Excel Technologies Ltd. Task\\Patient Information Portal\\Patient Information with ASP.NET Core Web API\\Patient Information.DAL\\Patient Information.DAL.csproj",
+        "projectName": "Patient Information.DAL",
+        "projectPath": "E:\\Excel Technologies Ltd. Task\\Patient Information Portal\\Patient Information with ASP.NET Core Web API\\Patient Information.DAL\\Patient Information.DAL.csproj",
+        "packagesPath": "C:\\Users\\Sajib\\.nuget\\packages\\",
+        "outputPath": "E:\\Excel Technologies Ltd. Task\\Patient Information Portal\\Patient Information with ASP.NET Core Web API\\Patient Information.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sajib\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Excel Technologies Ltd. Task\\Patient Information Portal\\Patient Information with ASP.NET Core Web API\\Patient Information.BL\\Patient Information.BL.csproj": {
+                "projectPath": "E:\\Excel Technologies Ltd. Task\\Patient Information Portal\\Patient Information with ASP.NET Core Web API\\Patient Information.BL\\Patient Information.BL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
